@@ -3,6 +3,8 @@ import './App.css'
 import Hero from './components/Hero'
 import IoTDashboard from './components/IoTDashboard'
 import ProcessFlow from './components/ProcessFlow'
+import SellShells from './components/SellShells'
+import ProductCatalog from './components/ProductCatalog'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Hero />
         <ProcessFlow />
         <IoTDashboard />
+        <SellShells />
+        <ProductCatalog />
       </main>
       {/* <Footer /> */}
     </div>
